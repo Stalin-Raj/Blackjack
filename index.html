@@ -1,0 +1,42 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">    
+  <link rel="stylesheet" href="style.css">
+  <title>
+    BlackJack
+  </title>
+</head>
+<body>
+  <div class="main-container">
+    <div><h1>BLACK JACK</h1></div>
+    <div id="final-result"><h2>Lets play </h2></div>
+    <div class="first-row">
+      <div id="player-box"><h2>You:<span id="your-result">0</span></h2>
+      </div>
+      <div id="opponent-box">
+        <h2>Opponent:<span id="opponent-result">0</span></h2>
+      </div>
+    </div>
+    <div class="second-row">
+      <button class="btn btn-primary" id="hit">Hit</button>
+      <button class="btn btn-warning" id="stand">Stand</button>
+      <button class="btn btn-danger" id="deal">Deal</button>
+    </div>
+    <div class="third-row">
+      <table>
+        <tr>
+          <th>wins</th>
+          <th>Loses</th>
+          <th>Draws</th>
+        </tr>
+        <tr>
+          <td><span id="wins">0</span></td>
+          <td><span id="loses">0</span></td>
+          <td><span id="ties">0</span></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.main-container{
+  text-align: center;
+  border:1px solid black;
+}
+
+.first-row{
+  border:1px solid black;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  height:350px;
+  justify-content: space-around;
+  background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO4ICvDM1aX-GRTcLDL4yqENHeXkp2461Ycw&usqp=CAU");
+  color:aff;
+}
+
+.first-row div{
+  flex:1;
+  border:1px solid blue;
+}
+
+.second-row{
+  background: linear-gradient(lightblue,rgba(58, 194, 222,0.25))
+}
+
+.second-row button{
+  margin:2px;
+}
+
+.third-row{
+  display:flex;
+  justify-content: space-around;
+}
+
+.third-row table,tr,td,th{
+  border:1px solid black;
+}
