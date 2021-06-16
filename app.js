@@ -72,7 +72,7 @@ function setImage(selectedCard,player)
   {
    let Image=document.createElement('img');
    Image.src="blackjack_assets/images/"+selectedCard+".png";
-   Image.style="height:50px;width:30%;margin:1px;"
+   Image.style="height:150px;width:30%;margin:1px;"
    document.querySelector(player).appendChild(Image);
    hitSound.play();
   }
